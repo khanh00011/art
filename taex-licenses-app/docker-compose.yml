@@ -1,0 +1,7 @@
+version: "3.3"
+services:
+    nodeserver-license:
+        build:
+            context: .
+        ports:
+            - "3001:3000"
